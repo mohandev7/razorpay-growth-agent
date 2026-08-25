@@ -1,0 +1,24 @@
+# Dependency directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Env secrets files
+.env
+server/.env
+client/.env
+.env.*
+!.env.example
+
+# Production build artifacts
+dist/
+client/dist/
+server/dist/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+
+*.timestamp-*.mjs
+powershell.cmd
